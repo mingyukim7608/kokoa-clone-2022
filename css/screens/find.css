@@ -1,0 +1,146 @@
+.find-screen {
+    top: 150px;
+}
+
+.recommended-friends {
+    border-top: var(--main-border);
+    border-bottom: var(--main-border);
+    padding: 25px 0px;
+    margin: 40px 0px;
+}
+
+.recommended-friends__title {
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.recommended-friends span {
+    display: block;
+    margin: 100px 0px;
+    text-align: center;
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.open-chat__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.open-chat__header h4 {
+    opacity: 0.6;
+}
+
+.open-chat__header span {
+    opacity: 0.4;
+
+}
+
+.open-chat__post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+    border-bottom: var(--main-border);
+}
+
+.open-chat__post .open-chat__post__column:first-child {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+
+.open-chat__post__title {
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.open-chat__post__hashtags {
+    text-transform: uppercase;
+    font-size: 25px;
+    opacity: 0.3;
+}
+
+
+.open-chat__post__members {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.open-chat__post__members .divider {
+    width: 2px;
+    height: 20px;
+    margin: 0px 6px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+
+.open-chat__post__members img {
+    width: 30px;
+    height: 30px;
+    border-radius: 40%;
+    margin-right: 7px;
+}
+
+.open-chat__post__members__count {
+    opacity: 0.3;
+}
+
+.open-post__memebers__status {
+    color: #FE86CF;
+}
+
+.open-chat__post__photo {
+    position: relative;
+}
+
+.open-chat__post__photo img {
+    width: 150px;
+    height:150px;
+    border-radius: 10%;
+}
+
+.open-chat__post__photo__likes {
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 10px;
+    bottom: 7px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 60px;
+    height: 20px;
+    padding: 2px 7px;
+    border-radius: 10px;
+    color: white;
+}
+
+.open-chat__post__photo__likes span {
+    margin-left: 5px;
+}
+
+@keyframes heartBeat {
+    0%{
+color:white;
+transform: none;
+    }
+    50%{
+color:tomato;
+transform: scale(1.1);
+    }
+    100%{
+color:white;
+transform: none;
+
+    }
+}
+.open-chat__post__photo__likes:hover .fa-heart{
+    will-change: transform;
+animation: heartBeat 1s linear infinite;
+}

@@ -1,0 +1,57 @@
+.settings-first-screen {
+    top: 150px;
+}
+
+.settings-second-screen {
+    top:500px;
+}
+
+
+.settings-list__setting {
+    font-size: 30px;
+    padding: 34px 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings-list .settings-list__setting:last-child {
+    border-bottom: none;
+}
+
+.settings-list__setting i {
+    margin-right: 20px;
+}
+
+.settings-list__setting .settings-list__setting__column:last-child {
+    font-size: 30px;
+    opacity: 0.4;
+}
+
+.settings-list__setting .settings-list__setting__column:first-child {
+    display: flex;
+    align-items: center;
+}
+
+.N {
+    width: 28px;
+    height: 28px;
+    background-color: tomato;
+    border-radius: 50%;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.mid-line {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 1px;
+    position: absolute;
+    top: 480px;
+}

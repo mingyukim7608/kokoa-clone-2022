@@ -1,0 +1,34 @@
+.screen-header {
+z-index: 1;
+position: fixed;
+top: 25px;
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: var(--horizontal-space);
+box-sizing: border-box;
+background-color: white;
+}
+
+.screen-header__title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.screen-header__icons span {
+    margin-left: 20px;
+}
+
+@keyframes rotategear {
+    from{
+transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+.screen-header__icons .fa-gear:hover {
+animation: rotategear 1s linear infinite;
+}
+

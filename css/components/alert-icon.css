@@ -1,0 +1,14 @@
+.alert-icon{
+    position: relative;
+}
+
+.alert {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #FD622A;
+    position: absolute;
+   right: -10px;
+   top: -10px;
+
+}

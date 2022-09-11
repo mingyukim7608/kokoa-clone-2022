@@ -1,0 +1,9 @@
+.chats-screen {
+    top: 140px;
+}
+
+.chat-info-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
